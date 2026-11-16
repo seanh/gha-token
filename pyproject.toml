@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=77", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,9 +7,9 @@ dynamic = ["version"]
 name = "gha-token"
 description = "Get app installation access tokens from the GitHub API."
 readme = "README.md"
+license = "BSD-2-Clause"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: BSD License",
     "Intended Audience :: Developers",
 ]
 requires-python = ">=3.11"
