@@ -1,5 +1,5 @@
 [tool.pylint.main]
-jobs = 0 # Use one process for CPU.
+jobs = 1
 
 load-plugins = [
     "pylint.extensions.bad_builtin",
