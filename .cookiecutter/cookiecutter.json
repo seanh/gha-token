@@ -2,7 +2,7 @@
   "template": "https://github.com/hypothesis/cookiecutters",
   "checkout": null,
   "directory": "pypackage",
-  "ignore": [],
+  "ignore": ["pyproject.toml", "tests/pyproject.toml"],
   "extra_context": {
     "name": "gha-token",
     "package_name": "gha_token",
